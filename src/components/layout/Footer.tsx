@@ -12,7 +12,11 @@ const Footer = () => {
         </span>
       </div>
       <div className='text-right md:text-center'>
-        <Link href='https://github.com/Marcin-Palubinski'>
+        <Link
+          href='https://github.com/Marcin-Palubinski'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           @Marcin Pałubiński 2023
         </Link>
       </div>

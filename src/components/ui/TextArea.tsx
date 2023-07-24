@@ -17,9 +17,7 @@ export const textareaVariants = cva(
     variants: {
       variant: {
         default:
-          'bg-foreground/10 text-foreground ring-primary ring-offset-1 ring-offset-background focus-visible:ring-2 active:bg-foreground/30 focus:bg-foreground/20',
-        foreground:
-          'bg-foreground/80 text-background hover:bg-foreground/90 ring-foreground/80 focus-visible:ring-2 ring-offset-1 ring-offset-background active:bg-foreground',
+          'bg-foreground/5 text-foreground ring-primary ring-offset-1 ring-offset-background focus-visible:ring-2 active:bg-foreground/20 focus:bg-foreground/10 hover:bg-foreground/10',
       },
     },
     defaultVariants: {
