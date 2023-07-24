@@ -2,26 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground: 17 24 39;
+    --background: 249 250 251;
+    --primary: 16 183 127;
+    --primary-foreground: 236 253 245;
+  }
+
+  .dark {
+    --foreground: 229 231 235;
+    --background: 31 41 55;
+    --primary: 16 185 129;
+    --primary-foreground: 2 44 34;
+  }
+  a,
+  button,
+  input {
+    @apply focus:outline-none ring-primary ring-offset-1 ring-offset-background focus-visible:ring-2;
   }
 }
-
+html,
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  scroll-behavior: smooth;
 }
