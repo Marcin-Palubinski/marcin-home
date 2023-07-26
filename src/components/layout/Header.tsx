@@ -15,6 +15,7 @@ const Header: React.FC<HeaderProps> = ({}) => {
         >
           M
         </Link>
+
         <nav className='ml-auto'>
           <Socials />
         </nav>

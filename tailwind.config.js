@@ -7,14 +7,16 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
-    extend: {
-      colors: {
-        foreground: 'rgb(var(--foreground) / <alpha-value>)',
-        background: 'rgb(var(--background) / <alpha-value>)',
-        primary: 'rgb(var(--primary) / <alpha-value>)',
-        'primary-foreground': 'rgb(var(--primary-foreground) / <alpha-value>)',
-        secondary: 'rgb(var(--secondary) / <alpha-value>)',
-      },
+    colors: {
+      foreground: 'rgb(var(--foreground) / <alpha-value>)',
+      background: 'rgb(var(--background) / <alpha-value>)',
+      primary: 'rgb(var(--primary) / <alpha-value>)',
+      'primary-foreground': 'rgb(var(--primary-foreground) / <alpha-value>)',
+      secondary: 'rgb(var(--secondary) / <alpha-value>)',
+      white: 'rgb(255 255 255 / <alpha-value>)',
+      black: 'rgb(0 0 0 / <alpha-value>)',
+      transparent: 'transparent',
+      current: 'currentColor',
     },
   },
   plugins: [],

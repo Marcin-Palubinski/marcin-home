@@ -12,17 +12,20 @@ interface ImageProps
   alt: string;
 }
 
-const imageVariants = cva('relative rounded-md overflow-hidden shadow-md', {
-  variants: {
-    variant: {
-      default: 'aspect-16/9',
-      square: 'aspect-1/1',
+const imageVariants = cva(
+  'relative rounded-md overflow-hidden shadow-md bg-white',
+  {
+    variants: {
+      variant: {
+        default: 'aspect-16/9',
+        square: 'aspect-1/1',
+      },
     },
-  },
-  defaultVariants: {
-    variant: 'default',
-  },
-});
+    defaultVariants: {
+      variant: 'default',
+    },
+  }
+);
 
 const Image: React.FC<ImageProps> = forwardRef<HTMLDivElement, ImageProps>(
   ({ src, alt, variant, className, ...props }, ref) => {
@@ -41,7 +44,7 @@ const Image: React.FC<ImageProps> = forwardRef<HTMLDivElement, ImageProps>(
           src={src}
           alt={alt}
           fill
-          className='object-fit object-cover'
+          className='object-fit object-contain'
         />
       </div>
     );

@@ -11,15 +11,7 @@ const Footer = () => {
           v{packageInfo.version}
         </span>
       </div>
-      <div className='text-right md:text-center'>
-        <Link
-          href='https://github.com/Marcin-Palubinski'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          @Marcin Pałubiński 2023
-        </Link>
-      </div>
+      <div className='text-right md:text-center'>@Marcin Pałubiński 2023</div>
       <div className='col-span-2 md:col-span-1 flex justify-end'>
         <Socials />
       </div>

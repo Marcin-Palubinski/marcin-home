@@ -11,8 +11,7 @@ const Providers: React.FC<ProvidersProps> = ({ children }) => {
     <ThemeProvider
       attribute='class'
       storageKey={`mp-theme`}
-      enableSystem={false}
-      defaultTheme='dark'
+      defaultTheme='system'
     >
       {children}
     </ThemeProvider>
