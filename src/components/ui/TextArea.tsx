@@ -47,4 +47,6 @@ const TextArea: React.FC<TextAreaProps> = forwardRef<
   );
 });
 
+TextArea.displayName = 'TextArea';
+
 export default TextArea;

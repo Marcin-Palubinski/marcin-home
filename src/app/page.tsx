@@ -1,9 +1,7 @@
 'use client';
 
-import Button, { buttonVariants } from '@/components/ui/Button';
+import { buttonVariants } from '@/components/ui/Button';
 import Image from '@/components/ui/Image';
-import Input from '@/components/ui/Input';
-import TextArea from '@/components/ui/TextArea';
 import Link from 'next/link';
 
 const HeroSection = () => (
@@ -26,7 +24,7 @@ const HeroSection = () => (
         </Link>
       </div>
     </div>
-    <div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6'>
+    <div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6 relative overflow-hidden'>
       <img
         className='object-cover object-center rounded'
         alt='hero'
@@ -176,7 +174,6 @@ const ContactSection = () => (
 //     </div>
 //   </section>
 // );
-//
 
 export default function Home() {
   return (

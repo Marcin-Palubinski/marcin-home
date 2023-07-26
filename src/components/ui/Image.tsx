@@ -51,4 +51,6 @@ const Image: React.FC<ImageProps> = forwardRef<HTMLDivElement, ImageProps>(
   }
 );
 
+Image.displayName = 'Image';
+
 export default Image;
