@@ -26,7 +26,7 @@ const ThemeSwitch = () => {
       onClick={toggleTheme}
       className='hover:text-primary w-10 h-10 rounded-full hover:bg-background grid place-content-center'
     >
-      {resolvedTheme === 'dark' ? <SunIcon /> : <MoonIcon />}
+      {resolvedTheme === 'dark' ? <MoonIcon /> : <SunIcon />}
     </button>
   );
 };

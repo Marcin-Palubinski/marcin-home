@@ -10,7 +10,7 @@ const font = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Marcin Pałubiński',
-  description: 'Marcin Pałubiński Developer - Portfolio',
+  description: 'Marcin Pałubiński - Web Developer UI/UX React',
 };
 
 export default function RootLayout({

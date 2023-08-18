@@ -1,6 +1,4 @@
 import packageInfo from '@/../package.json';
-import { GithubIcon, LinkedinIcon } from 'lucide-react';
-import Link from 'next/link';
 import Socials from '../Socials';
 
 const Footer = () => {
