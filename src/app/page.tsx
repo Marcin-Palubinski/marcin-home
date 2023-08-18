@@ -1,4 +1,3 @@
-'use client';
 import Image from '@/components/ui/Image';
 import { MailIcon, PhoneIcon } from 'lucide-react';
 import Link from 'next/link';
