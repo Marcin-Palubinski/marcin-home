@@ -96,7 +96,7 @@ const ContactSection = () => (
             icon: '/discord.png',
           },
         ].map(({ href, label, icon }) => (
-          <li>
+          <li key={href + label}>
             <Link
               href={href}
               target='_blank'
