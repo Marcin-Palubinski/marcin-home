@@ -91,8 +91,8 @@ const ContactSection = () => (
             icon: <MailIcon />,
           },
           {
-            href: 'https://discordapp.com/users/Martino#5151',
-            label: 'Martino#5151',
+            href: 'https://discordapp.com/users/martinofy2137',
+            label: 'martinofy2137',
             icon: '/discord.png',
           },
         ].map(({ href, label, icon }) => (
