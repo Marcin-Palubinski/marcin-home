@@ -9,7 +9,7 @@ const projects = [
       'Projekt i implementacja aplikacji internetowej wspomagającej działanie firm cateringowych.',
     image: '/ss1.png',
     heading: 'Praca inżynierska',
-    link: 'https://catoolin-v0.vercel.app',
+    link: 'https://catoolin.pl',
   },
   // {
   //   title: 'Amarotto',
